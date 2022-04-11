@@ -65,7 +65,7 @@ total = mutate(HEC, total=cumsum(Freq))
 
 #Since we have a males dataset, let's make a females dataset
 #TASK: Write the function that includes only rows that are 'female'
-filter (HEC2, gender == "Male")
+filter (HEC2, gender == "Female")
 
 #And now let's join the males and females
 #TASK: Write the function that joins the male and female rows 
